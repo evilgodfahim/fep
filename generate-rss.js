@@ -1,34 +1,29 @@
-const fs = require("fs");
+const fs   = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
-const RSS = require("rss");
+const RSS  = require("rss");
 
-const baseURL = "https://www.thedailystar.net";
-const targetURL = "https://www.thedailystar.net/opinion";
+const baseURL         = "https://today.thefinancialexpress.com.bd";
+const targetURL       = baseURL;
 const flareSolverrURL = process.env.FLARESOLVERR_URL || "http://localhost:8191";
 
 fs.mkdirSync("./feeds", { recursive: true });
 
 // ===== DATE PARSING =====
-function parseItemDate(raw) {
-  if (!raw || !raw.trim()) return new Date();
-
-  const trimmed = raw.trim();
-
-  const relMatch = trimmed.match(/^(\d+)\s+(minute|hour|day)s?\s+ago$/i);
-  if (relMatch) {
-    const n    = parseInt(relMatch[1], 10);
-    const unit = relMatch[2].toLowerCase();
-    const ms   = unit === "minute" ? n * 60_000
-               : unit === "hour"   ? n * 3_600_000
-               :                     n * 86_400_000;
-    return new Date(Date.now() - ms);
+// The FE Today homepage shows the edition date in the header as plain text:
+//   "Monday, 1 June 2026"
+// There are no per-article timestamps on the front page, so every item gets
+// the edition date (or now() as a safe fallback).
+function parseEditionDate(html) {
+  // Matches patterns like "Monday, 1 June 2026" or "Sunday, 31 May 2026"
+  const match = html.match(
+    /\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\d{1,2}\s+\w+\s+\d{4}/i
+  );
+  if (match) {
+    const d = new Date(match[0]);
+    if (!isNaN(d.getTime())) return d;
   }
-
-  const d = new Date(trimmed);
-  if (!isNaN(d.getTime())) return d;
-
-  console.warn(`⚠️  Could not parse date: "${trimmed}" — using now()`);
+  console.warn("⚠️  Could not parse edition date from page — using now()");
   return new Date();
 }
 
@@ -51,61 +46,122 @@ async function fetchWithFlareSolverr(url) {
 async function generateRSS() {
   try {
     const htmlContent = await fetchWithFlareSolverr(targetURL);
-    const $ = cheerio.load(htmlContent);
-    const items = [];
+    const $           = cheerio.load(htmlContent);
+    const editionDate = parseEditionDate(htmlContent);
+    const items       = [];
+    const seenLinks   = new Set();
 
-    $("div.card").each((_, el) => {
-      const $card = $(el);
+    // ── Section tracking ──────────────────────────────────────────────────────
+    // Each section is structured as:
+    //   <div class="row">
+    //     <div class="col-lg-12">
+    //       <h2 class="text-center">SECTION NAME</h2>
+    //     </div>
+    //   </div>
+    //   <div class="row home-section"">   ← note the typo (extra quote) is in the source
+    //     <div class="col-lg-4">
+    //       <div class="has-post">
+    //         <a href="..." class="local-news"> ... </a>
+    //         <p>snippet</p>            ← text-only card: p is outside the <a>
+    //       </div>
+    //     </div>
+    //     ...
+    //   </div>
+    //
+    // For image+text cards the layout inside <a> is:
+    //   <div class="row">
+    //     <div class="col-lg-5"><h4><img ...></h4></div>
+    //     <div class="col-lg-7"><h4>TITLE</h4><p>snippet</p></div>
+    //   </div>
+    //
+    // For text-only cards the layout inside <a> is just:
+    //   <h4>TITLE</h4>
+    // …and the <p> snippet sits as a sibling of <a> inside .has-post.
 
-      const titleElement = $card.find("h5.card-title a, h1.card-title a").first();
-      const title = titleElement.text().trim();
-      const href  = titleElement.attr("href");
-      if (!title || !href) return;
+    $("div.has-post").each((_, postEl) => {
+      const $post = $(postEl);
+      const $a    = $post.find("a.local-news").first();
 
-      const link        = href.startsWith("http") ? href : baseURL + href;
-      const intro       = $card.find("div.card-intro").text().trim()
-                       || $card.find("p.intro").text().trim();
-      const author      = $card.find("div.author a").text().trim();
-      const rawDate     = $card.find("div.card-info span").first().text().trim();
+      if (!$a.length) return;
+
+      const href = $a.attr("href")?.trim();
+      if (!href) return;
+
+      // All hrefs in this page are already absolute.
+      const link = href.startsWith("http") ? href : baseURL + href;
+      if (seenLinks.has(link)) return;
+      seenLinks.add(link);
+
+      // ── Title ──────────────────────────────────────────────────────────────
+      // Image-cards: first h4 wraps <img>, second h4 is the title.
+      // Text-cards:  single h4 is the title.
+      // Strategy: prefer the h4 that does NOT contain an <img>.
+      let title = "";
+      $a.find("h4").each((_, h4) => {
+        if (!$(h4).find("img").length) {
+          title = $(h4).text().replace(/\s+/g, " ").trim();
+          return false; // break — take the first non-image h4
+        }
+      });
+      if (!title) return; // skip if we genuinely can't find a title
+
+      // ── Description/snippet ───────────────────────────────────────────────
+      // Two locations depending on card type:
+      //   1. Inside <a> → .col-lg-7 > p  (image-card)
+      //   2. Sibling of <a> inside .has-post → p  (text-card)
+      let description =
+        $a.find(".col-lg-7 p").first().text().replace(/\s+/g, " ").trim() ||
+        $post.find("> p").first().text().replace(/\s+/g, " ").trim() ||
+        $post.children("p").first().text().replace(/\s+/g, " ").trim();
+
+      // ── Section ───────────────────────────────────────────────────────────
+      // Walk up to the closest .row.home-section, then look at the
+      // immediately preceding .row sibling for the h2 heading.
+      const $homeSection = $post.closest("div.home-section");
+      let section = "";
+      if ($homeSection.length) {
+        // prev() skips empty text nodes via cheerio
+        const $headingRow = $homeSection.prev("div.row");
+        section = $headingRow.find("h2.text-center").first().text().trim();
+      }
 
       items.push({
         title,
         link,
-        description: intro || (author ? `By ${author}` : ""),
-        author,
-        date: parseItemDate(rawDate),   // always a valid Date object
+        description,
+        section,
+        date: editionDate,
       });
     });
 
     console.log(`Found ${items.length} articles`);
 
     if (items.length === 0) {
-      console.log("⚠️  No articles found, creating placeholder item");
+      console.warn("⚠️  No articles found — check selectors or page structure");
       items.push({
-        title:       "No articles found yet",
+        title:       "No articles found",
         link:        baseURL,
         description: "RSS feed could not scrape any articles.",
-        author:      "",
+        section:     "",
         date:        new Date(),
       });
     }
 
     const feed = new RSS({
-      title:       "The Daily Star – Opinion",
-      description: "Latest opinion pieces from The Daily Star",
-      feed_url:    `${baseURL}/opinion`,
+      title:       "The Financial Express – Today's Paper",
+      description: "All articles from today's edition of The Financial Express (Bangladesh)",
+      feed_url:    targetURL,
       site_url:    baseURL,
       language:    "en",
-      pubDate:     new Date().toUTCString(),
+      pubDate:     editionDate.toUTCString(),
     });
 
-    items.slice(0, 20).forEach(item => {
+    items.forEach(item => {
       feed.item({
-        title:       item.title,
+        title:       item.section ? `[${item.section}] ${item.title}` : item.title,
         url:         item.link,
-        description: item.description,
-        author:      item.author || undefined,
-        date:        item.date,         // Date object → never "Invalid Date"
+        description: item.description || undefined,
+        date:        item.date,
       });
     });
 
@@ -116,9 +172,9 @@ async function generateRSS() {
     console.error("❌ Error generating RSS:", err.message);
 
     const feed = new RSS({
-      title:       "The Daily Star – Opinion (error fallback)",
+      title:       "The Financial Express – Today's Paper (error fallback)",
       description: "RSS feed could not scrape, showing placeholder",
-      feed_url:    `${baseURL}/opinion`,
+      feed_url:    targetURL,
       site_url:    baseURL,
       language:    "en",
       pubDate:     new Date().toUTCString(),
