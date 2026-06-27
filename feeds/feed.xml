@@ -4,7 +4,7 @@
         <description><![CDATA[All articles from today's edition of The Financial Express (Bangladesh)]]></description>
         <link>https://today.thefinancialexpress.com.bd</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Jun 2026 00:15:27 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 04:58:05 GMT</lastBuildDate>
         <atom:link href="https://today.thefinancialexpress.com.bd" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -13,7 +13,7 @@
             <description><![CDATA[RSS feed could not scrape any articles.]]></description>
             <link>https://today.thefinancialexpress.com.bd</link>
             <guid isPermaLink="true">https://today.thefinancialexpress.com.bd</guid>
-            <pubDate>Sat, 27 Jun 2026 00:15:27 GMT</pubDate>
+            <pubDate>Sat, 27 Jun 2026 04:58:05 GMT</pubDate>
         </item>
     </channel>
 </rss>
