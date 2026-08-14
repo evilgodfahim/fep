@@ -4,16 +4,30 @@
         <description><![CDATA[All articles from today's edition of The Financial Express (Bangladesh)]]></description>
         <link>https://today.thefinancialexpress.com.bd</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Aug 2026 02:27:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 04:53:52 GMT</lastBuildDate>
         <atom:link href="https://today.thefinancialexpress.com.bd" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <item>
-            <title><![CDATA[No articles found]]></title>
-            <description><![CDATA[RSS feed could not scrape any articles.]]></description>
-            <link>https://today.thefinancialexpress.com.bd</link>
-            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd</guid>
-            <pubDate>Fri, 14 Aug 2026 02:27:54 GMT</pubDate>
+            <title><![CDATA[[FIRST PAGE] Gas crisis deepens as LNG regasification dips amid disruptive weather]]></title>
+            <description><![CDATA[Gas crisis deepens across Bangladesh...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/gas-crisis-deepens-as-lng-regasification-dips-amid-disruptive-weather-1786681372</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/gas-crisis-deepens-as-lng-regasification-dips-amid-disruptive-weather-1786681372</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] BNP submits nomination for Fakhrul as President candidate]]></title>
+            <description><![CDATA[The ruling Bangladesh Nationalist Party...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/bnp-submits-nomination-for-fakhrul-as-president-candidate-1786681786</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/bnp-submits-nomination-for-fakhrul-as-president-candidate-1786681786</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] Dhaka seeks UK court's worldwide asset-freezing orders]]></title>
+            <description><![CDATA[Bangladesh tries to get worldwide...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/dhaka-seeks-uk-courts-worldwide-asset-freezing-orders-1786682666</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/dhaka-seeks-uk-courts-worldwide-asset-freezing-orders-1786682666</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
