@@ -1,19 +1,417 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[The Financial Express – Today's Paper (error fallback)]]></title>
-        <description><![CDATA[RSS feed could not scrape, showing placeholder]]></description>
+        <title><![CDATA[The Financial Express – Today's Paper]]></title>
+        <description><![CDATA[All articles from today's edition of The Financial Express (Bangladesh)]]></description>
         <link>https://today.thefinancialexpress.com.bd</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 28 Sep 2026 01:31:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 08:32:11 GMT</lastBuildDate>
         <atom:link href="https://today.thefinancialexpress.com.bd" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 28 Sep 2026 01:31:59 GMT</pubDate>
+        <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <item>
-            <title><![CDATA[Feed generation failed]]></title>
-            <description><![CDATA[An error occurred during scraping.]]></description>
-            <link>https://today.thefinancialexpress.com.bd</link>
-            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd</guid>
-            <pubDate>Mon, 28 Sep 2026 01:31:59 GMT</pubDate>
+            <title><![CDATA[[FIRST PAGE] Injection of high-powered money up amid rising inflationary pressure]]></title>
+            <description><![CDATA[A downturn in the funneling...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/injection-of-high-powered-money-up-amid-rising-inflationary-pressure-1790532595</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/injection-of-high-powered-money-up-amid-rising-inflationary-pressure-1790532595</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] Constitution amendment bill in new year's first session of JS]]></title>
+            <description><![CDATA[The much-talked-about constitution amendment bill...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/constitution-amendment-bill-in-new-years-first-session-of-js-1790532790</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/constitution-amendment-bill-in-new-years-first-session-of-js-1790532790</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] Another ICT at Pangaon for rising trade handling]]></title>
+            <description><![CDATA[A process gets going to set up another inland container...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/another-ict-at-pangaon-for-rising-trade-handling-1790532838</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/another-ict-at-pangaon-for-rising-trade-handling-1790532838</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] This is how the main thoroughfare at Mirpur-1]]></title>
+            <description><![CDATA[This is how the main...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/first-page/this-is-how-the-main-thoroughfare-at-mirpur-1-1790532869</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/this-is-how-the-main-thoroughfare-at-mirpur-1-1790532869</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[FIRST PAGE] Prayer Timings_2026-09-28]]></title>
+            <link>https://today.thefinancialexpress.com.bd/first-page/prayer-timings-2026-09-28-1790532890</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/first-page/prayer-timings-2026-09-28-1790532890</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] PM's UNGA tour highly successful: Mahdi]]></title>
+            <description><![CDATA[Prime Minister's Adviser and his Office spokesperson Mahdi Amin on...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/pms-unga-tour-highly-successful-mahdi-1790532909</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/pms-unga-tour-highly-successful-mahdi-1790532909</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] Jamaat Ameer, Brunei envoy discuss energy issue]]></title>
+            <description><![CDATA[Brunei High Commissioner to Bangladesh Haji Haris bin Haji Othman...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/jamaat-ameer-brunei-envoy-discuss-energy-issue-1790532937</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/jamaat-ameer-brunei-envoy-discuss-energy-issue-1790532937</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] Asif Mahmud demands arrest, neutral probe]]></title>
+            <description><![CDATA[National Citizen Party (NCP) Spokesperson Asif Mahmud Shojib Bhuyain on...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/asif-mahmud-demands-arrest-neutral-probe-1790532959</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/asif-mahmud-demands-arrest-neutral-probe-1790532959</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] ‘Ex-Cantonment thana OC had links with AL’]]></title>
+            <description><![CDATA[Home Minister Salahuddin Ahmed on Sunday said links have been...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/ex-cantonment-thana-oc-had-links-with-al-1790532967</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/ex-cantonment-thana-oc-had-links-with-al-1790532967</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] Bangladesh Packaging and Accessories Manufacturers and Exporters Association]]></title>
+            <description><![CDATA[Bangladesh Packaging and Accessories Manufacturers...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/bangladesh-packaging-and-accessories-manufacturers-and-exporters-association-1790533010</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/bangladesh-packaging-and-accessories-manufacturers-and-exporters-association-1790533010</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[POLITICS & POLICIES] Further probe report in Hadi murder case Nov 3]]></title>
+            <description><![CDATA[A Dhaka court on Sunday set November 3 for the...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/politics-policies/further-probe-report-in-hadi-murder-case-nov-3-1790533024</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/politics-policies/further-probe-report-in-hadi-murder-case-nov-3-1790533024</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] PM's possible Japan, Türkiye, Saudi Arabia visits under discussion]]></title>
+            <description><![CDATA[Following the Prime Minister's "highly successful and fruitful" visit to...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/pms-possible-japan-tuerkiye-saudi-arabia-visits-under-discussion-1790533076</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/pms-possible-japan-tuerkiye-saudi-arabia-visits-under-discussion-1790533076</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] Five arrested over attack on content creator's studio in city]]></title>
+            <description><![CDATA[Police have arrested five people in connection with the attack...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/five-arrested-over-attack-on-content-creators-studio-in-city-1790533102</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/five-arrested-over-attack-on-content-creators-studio-in-city-1790533102</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] Singapore wants to provide border security assistance to BD]]></title>
+            <description><![CDATA[Outgoing Singaporean Chargé d'Affaires has expressed his country's interest in...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/singapore-wants-to-provide-border-security-assistance-to-bd-1790533118</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/singapore-wants-to-provide-border-security-assistance-to-bd-1790533118</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] Md Abdus Salam and others visited Jirani Khal]]></title>
+            <description><![CDATA[State Minister for Road Transport...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/md-abdus-salam-and-others-visited-jirani-khal-1790533175</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/md-abdus-salam-and-others-visited-jirani-khal-1790533175</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] RUCSU forms human chain protesting 'cancellation of successful job candidates']]></title>
+            <description><![CDATA[The Rajshahi University Central Students' Union (RUCSU) organised a human...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/rucsu-forms-human-chain-protesting-cancellation-of-successful-job-candidates-1790533202</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/rucsu-forms-human-chain-protesting-cancellation-of-successful-job-candidates-1790533202</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[METRO / NEWS] 'Roid' to represent Bangladesh in 99th Oscars]]></title>
+            <description><![CDATA[Mejbaur Rahman Sumon's film "Roid" has been selected as Bangladesh's...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/metro-news/roid-to-represent-bangladesh-in-99th-oscars-1790533212</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/metro-news/roid-to-represent-bangladesh-in-99th-oscars-1790533212</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[VIEWS & OPINION] Fuel price adjustment & wider economic interests]]></title>
+            <description><![CDATA[Bangladesh government’s decision to raise...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/views-opinion/fuel-price-adjustment-wider-economic-interests-1790525598</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/views-opinion/fuel-price-adjustment-wider-economic-interests-1790525598</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] Lawlessness must stop now]]></title>
+            <description><![CDATA[Where is Bangladesh heading? There have always been various degrees...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/lawlessness-must-stop-now-1790525618</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/lawlessness-must-stop-now-1790525618</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] Biman's dream fleet of 100 planes!]]></title>
+            <description><![CDATA[The Biman Bangladesh Airlines' ambition...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/bimans-dream-fleet-of-100-planes-1790525647</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/bimans-dream-fleet-of-100-planes-1790525647</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] All hell broke loose on Thursday night]]></title>
+            <description><![CDATA[The country has been a witness to vandalism, arson, loot,...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/all-hell-broke-loose-on-thursday-night-1790525677</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/all-hell-broke-loose-on-thursday-night-1790525677</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] Inspecting restaurants and hotels]]></title>
+            <description><![CDATA[Restaurants and hotels are springing up one after another, on...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/inspecting-restaurants-and-hotels-1790525700</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/inspecting-restaurants-and-hotels-1790525700</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] Harassment of passengers in public transport]]></title>
+            <description><![CDATA[Transportation is an essential part of people's daily lives. Unfortunately,...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/harassment-of-passengers-in-public-transport-1790525718</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/harassment-of-passengers-in-public-transport-1790525718</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[EDITORIAL] Who should pay for plastic waste?]]></title>
+            <description><![CDATA[Every day, we use plastic without giving it much thought....]]></description>
+            <link>https://today.thefinancialexpress.com.bd/editorial/who-should-pay-for-plastic-waste-1790525741</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/editorial/who-should-pay-for-plastic-waste-1790525741</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Term deposits jump Tk 378b in Apr-Jun as savers chase higher returns]]></title>
+            <description><![CDATA[Term deposits at banks recorded...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/term-deposits-jump-tk-378b-in-apr-jun-as-savers-chase-higher-returns-1790533306</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/term-deposits-jump-tk-378b-in-apr-jun-as-savers-chase-higher-returns-1790533306</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PM Tarique returns home]]></title>
+            <description><![CDATA[Prime Minister Tarique Rahman returned...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/pm-tarique-returns-home-1790533371</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/pm-tarique-returns-home-1790533371</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PKSF to provide Tk 72.45b financing for solar power, microenterprises]]></title>
+            <description><![CDATA[Palli Karma-Sahayak Foundation (PKSF) has taken initiatives to provide a...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/pksf-to-provide-tk-7245b-financing-for-solar-power-microenterprises-1790533414</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/pksf-to-provide-tk-7245b-financing-for-solar-power-microenterprises-1790533414</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nine die with measles symptoms in 24 hrs]]></title>
+            <description><![CDATA[Nine children died with measles-like symptoms in 24 hours until...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/nine-die-with-measles-symptoms-in-24-hrs-1790533451</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/nine-die-with-measles-symptoms-in-24-hrs-1790533451</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BD proposes Ctg-Kunming road connectivity, Yunnan warehouse]]></title>
+            <description><![CDATA[Bangladesh mooted a slew of proposals to deepen cooperation in...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/bd-proposes-ctg-kunming-road-connectivity-yunnan-warehouse-1790533509</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/bd-proposes-ctg-kunming-road-connectivity-yunnan-warehouse-1790533509</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BD to get $100m loan from ADB]]></title>
+            <description><![CDATA[The Asian Development Bank (ADB) has approved a $100 million...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/last-page/bd-to-get-100m-loan-from-adb-1790533580</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/last-page/bd-to-get-100m-loan-from-adb-1790533580</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] Envoy Textiles posts slight earnings dip, eyes growth through expansion]]></title>
+            <description><![CDATA[Envoy Textiles has reported a...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/envoy-textiles-posts-slight-earnings-dip-eyes-growth-through-expansion-1790528763</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/envoy-textiles-posts-slight-earnings-dip-eyes-growth-through-expansion-1790528763</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] Apex Footwear’s profit up 15pc on higher sales, exports]]></title>
+            <description><![CDATA[Apex Footwear posted nearly 15 per cent year-on-year growth in...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/apex-footwears-profit-up-15pc-on-higher-sales-exports-1790528824</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/apex-footwears-profit-up-15pc-on-higher-sales-exports-1790528824</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] IPDC Finance gets nod to move ahead with Islamic financing]]></title>
+            <description><![CDATA[IPDC Finance has decided to enter the Islamic finance market...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/ipdc-finance-gets-nod-to-move-ahead-with-islamic-financing-1790528902</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/ipdc-finance-gets-nod-to-move-ahead-with-islamic-financing-1790528902</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] Shofiqul Hoq new chairman of risk mgmt committee of Citizens Bank]]></title>
+            <description><![CDATA[S. M. Shofiqul Hoq has...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/shofiqul-hoq-new-chairman-of-risk-mgmt-committee-of-citizens-bank-1790528917</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/shofiqul-hoq-new-chairman-of-risk-mgmt-committee-of-citizens-bank-1790528917</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] JUSTICE AZIZUL HAQUE AND NURJAHAN BEGUM JOIN SOUTHEAST BANK AS INDEPENDENT DIRECTORS]]></title>
+            <description><![CDATA[The 799th meeting of the...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/justice-azizul-haque-and-nurjahan-begum-join-southeast-bank-as-independent-directors-1790528961</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/justice-azizul-haque-and-nurjahan-begum-join-southeast-bank-as-independent-directors-1790528961</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[STOCK & CORPORATE] UCB'S ARFL WINS 'PROJECT OF THE YEAR' AWARD]]></title>
+            <description><![CDATA[The Agri Rural Fast Loan...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/stock-corporate/ucbs-arfl-wins-project-of-the-year-award-1790529038</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/stock-corporate/ucbs-arfl-wins-project-of-the-year-award-1790529038</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[COUNTRY] Sylhet road in deplorable state barely three years after repair]]></title>
+            <description><![CDATA[SYLHET, Sept 27: Allegations have...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/country/sylhet-road-in-deplorable-state-barely-three-years-after-repair-1790528222</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/country/sylhet-road-in-deplorable-state-barely-three-years-after-repair-1790528222</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[COUNTRY] Four including twin siblings drown in Munshiganj, Cnawabganj ponds]]></title>
+            <description><![CDATA[Four people including twin siblings, drowned in Munshiganj and Chapainawabganj...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/country/four-including-twin-siblings-drown-in-munshiganj-cnawabganj-ponds-1790528232</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/country/four-including-twin-siblings-drown-in-munshiganj-cnawabganj-ponds-1790528232</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[COUNTRY] Kushtia road crash kills human hauler driver]]></title>
+            <description><![CDATA[KUSHTIA, Sept 27 (UNB): A human hauler driver was killed...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/country/kushtia-road-crash-kills-human-hauler-driver-1790528243</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/country/kushtia-road-crash-kills-human-hauler-driver-1790528243</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[COUNTRY] Solar pumps cut irrigation costs for Jhenaidah farmers]]></title>
+            <description><![CDATA[JHENAIDAH, Sept 27 (UNB): Amid...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/country/solar-pumps-cut-irrigation-costs-for-jhenaidah-farmers-1790528287</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/country/solar-pumps-cut-irrigation-costs-for-jhenaidah-farmers-1790528287</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] Seven killed in strike on market in Yemen]]></title>
+            <description><![CDATA[RIYADH, Sept 27 (Agencies): Yemen's...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/seven-killed-in-strike-on-market-in-yemen-1790529957</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/seven-killed-in-strike-on-market-in-yemen-1790529957</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] Kabul says 28 fighters killed after crossing from Pakistan, Islamabad denies ties]]></title>
+            <description><![CDATA[KABUL/ISLAMABAD, Sept 27 (Reuters): Afghanistan's...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/kabul-says-28-fighters-killed-after-crossing-from-pakistan-islamabad-denies-ties-1790529984</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/kabul-says-28-fighters-killed-after-crossing-from-pakistan-islamabad-denies-ties-1790529984</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] South Africa shootings leave 27 dead]]></title>
+            <description><![CDATA[JOHANNESBURG, Sept 27 (Reuters): South...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/south-africa-shootings-leave-27-dead-1790530003</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/south-africa-shootings-leave-27-dead-1790530003</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] Iran's army voices readiness for potential renewed US attack]]></title>
+            <description><![CDATA[TEHRAN, Sept 27 (Agencies): Iran's armed forces are prepared for...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/irans-army-voices-readiness-for-potential-renewed-us-attack-1790530020</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/irans-army-voices-readiness-for-potential-renewed-us-attack-1790530020</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] Floods, landslides kill 56 in India and 14 in Nepal]]></title>
+            <description><![CDATA[BHUBANESWAR/KATHMANDU, Sept 27 (Reuters): Heavy rain and storms have triggered...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/floods-landslides-kill-56-in-india-and-14-in-nepal-1790530034</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/floods-landslides-kill-56-in-india-and-14-in-nepal-1790530034</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[WORLD] Hamas leader says Israel to use Gaza 'blood' in election]]></title>
+            <description><![CDATA[DOHA, Sept 27 (AFP): The leader of Hamas brushed aside...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/world/hamas-leader-says-israel-to-use-gaza-blood-in-election-1790530044</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/world/hamas-leader-says-israel-to-use-gaza-blood-in-election-1790530044</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Never underestimate the opponent']]></title>
+            <description><![CDATA[Mohammad Salahuddin, Bangladesh head coach, on Sunday warned his players...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/never-underestimate-the-opponent-1790528322</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/never-underestimate-the-opponent-1790528322</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bangladesh create different challenges for us]]></title>
+            <description><![CDATA[With Bangladesh men's team having...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/bangladesh-create-different-challenges-for-us-1790528415</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/bangladesh-create-different-challenges-for-us-1790528415</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Miraz urges young cricketers to dream of playing for Bangladesh]]></title>
+            <description><![CDATA[Bangladesh all-rounder Mehidy Hasan Miraz has urged young cricketers taking...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/miraz-urges-young-cricketers-to-dream-of-playing-for-bangladesh-1790528427</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/miraz-urges-young-cricketers-to-dream-of-playing-for-bangladesh-1790528427</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Alcaraz saves two points to edge Fritz as Europe lead Laver Cup]]></title>
+            <description><![CDATA[LONDON, Sept 27 (Reuters): Team Europe's Carlos Alcaraz saved two...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/alcaraz-saves-two-points-to-edge-fritz-as-europe-lead-laver-cup-1790528437</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/alcaraz-saves-two-points-to-edge-fritz-as-europe-lead-laver-cup-1790528437</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spain punish England errors to win thriller at Wembley]]></title>
+            <description><![CDATA[Spain's Mikel Oyarzabal scored the...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/spain-punish-england-errors-to-win-thriller-at-wembley-1790528474</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/spain-punish-england-errors-to-win-thriller-at-wembley-1790528474</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mbappé's injury diagnosed as hyperextension of his left knee]]></title>
+            <description><![CDATA[MADRID, Sept 27 (AP): Real Madrid striker Kylian Mbappé sustained...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/sports/mbappes-injury-diagnosed-as-hyperextension-of-his-left-knee-1790528484</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/sports/mbappes-injury-diagnosed-as-hyperextension-of-his-left-knee-1790528484</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] Ctg ICDs see drop in Aug cargo handling]]></title>
+            <description><![CDATA[Cargo handled by inland container...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/ctg-icds-see-drop-in-aug-cargo-handling-1790529296</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/ctg-icds-see-drop-in-aug-cargo-handling-1790529296</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] A delegation led by Executive Vice-Governor of Yunnan Province in China Zhao Junmin meets Commerce Minister]]></title>
+            <description><![CDATA[A delegation led by Executive...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/a-delegation-led-by-executive-vice-governor-of-yunnan-province-in-china-zhao-junmin-meets-commerce-minister-1790529383</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/a-delegation-led-by-executive-vice-governor-of-yunnan-province-in-china-zhao-junmin-meets-commerce-minister-1790529383</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] Workers' rights, social protection sought in COP31 position paper]]></title>
+            <description><![CDATA[Bangladesh's position paper for COP31 should incorporate workers' rights, social...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/workers-rights-social-protection-sought-in-cop31-position-paper-1790529454</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/workers-rights-social-protection-sought-in-cop31-position-paper-1790529454</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] Bangladesh embarks on transformation towards trillion-dollar economy by 2034: Titumir]]></title>
+            <description><![CDATA[Prime Minister's Adviser on Finance and Planning Prof Dr Rashed...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/bangladesh-embarks-on-transformation-towards-trillion-dollar-economy-by-2034-titumir-1790529465</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/bangladesh-embarks-on-transformation-towards-trillion-dollar-economy-by-2034-titumir-1790529465</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] Govt eyes tourism as next major economic engine]]></title>
+            <description><![CDATA[Bangladesh on Sunday celebrated World Tourism Day with colourful programmes...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/govt-eyes-tourism-as-next-major-economic-engine-1790529474</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/govt-eyes-tourism-as-next-major-economic-engine-1790529474</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TRADE & MARKET] MIDLAND BANK SIGNS MOU WITH AKIJ RENEWABLE ENERGY & AUTOMOBILES]]></title>
+            <description><![CDATA[Midland Bank PLC has signed...]]></description>
+            <link>https://today.thefinancialexpress.com.bd/trade-market/midland-bank-signs-mou-with-akij-renewable-energy-automobiles-1790529506</link>
+            <guid isPermaLink="true">https://today.thefinancialexpress.com.bd/trade-market/midland-bank-signs-mou-with-akij-renewable-energy-automobiles-1790529506</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
